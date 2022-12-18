@@ -1,0 +1,60 @@
+* {
+    margin: 20px;
+    padding: 0;
+}
+.navbar {
+    height: 100px;
+    display: flex;
+    background-color: gray;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+}
+
+.nev{
+    height: 70px;
+    display: flex;
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+sidebar{
+    margin-top: 10px;
+    width: 30%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    line-height: 8;
+    background-color: gray;
+}
+
+bdar{
+    margin-top: 10px;
+    width: 60.7%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    line-height: 8;
+    background-color: gray;
+}
+
+ft {
+    float: left;
+    height: 100px;
+    width: 95.5%;
+    background-color: gray;
+    text-align: center;
+    line-height: 2;
+    margin-top: 10px;
+}

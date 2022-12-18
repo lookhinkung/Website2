@@ -18,7 +18,10 @@
     margin: 30;
     display: grid;
     grid-template-columns: auto auto auto ;
-    
+    grid-template-areas: 
+    "navbar"
+    "container"
+    "grid-item blank";
     grid-gap: 30px;
     margin-bottom: 20px;
 }
@@ -42,7 +45,7 @@
     grid-gap: 0;
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 20px;
+    height: 10px;
     width: 329%;
     background-color: gray;
 }
@@ -54,9 +57,56 @@
 }
 
 .blank{
-    align-items: center;
-    width: 5%;
-    height: 500px;
+    margin-top: 0px;
+    margin-left: 770px;
+    height: 688px;
+    border: 1px solid black;
+    width: 21.3%;
     display: flex;
-    border: 1px solid red;
+    position: relative; bottom: 60px;
+}
+.sidebar{
+    display: flex;
+    margin: 30;
+    height: 300px;
+    width: 35%;
+    background-color: rgb(51, 48, 48);
+    margin-left: 1200px;
+    position: relative; bottom: 850px;
+}
+.bar{
+    display: flex;
+    margin: 30;
+    height: 50px;
+    width: 35%;
+    background-color: gray;
+    margin-left: 1200px;
+    position: relative; bottom: 862px;
+}
+.box1{
+    display: flex;
+    margin: 30;
+    height: 146px;
+    width: 10%;
+    background-color: gray;
+    margin-left: 1200px;
+    position: relative; bottom: 862px;
+}
+.line2{
+    display: flex;
+    margin: 20;
+    height: 10px;
+    width: 35%;
+    background-color: gray;
+    margin-left: 1200px;
+    position: relative; bottom: 862px;
+}
+.box2{
+    display: flex;
+    margin: 30;
+    height: 146px;
+    width: 10%;
+    background-color: gray;
+    margin-left: 1200px;
+    position: relative; bottom: 862px;
 }
